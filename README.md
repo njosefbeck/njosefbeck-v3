@@ -12,6 +12,5 @@ Redesign of my main website: njosefbeck.com
 * CSS3
 * SASS
 * Javascript
-
 * Bootstrap
 * Angular.js
