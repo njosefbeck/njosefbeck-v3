@@ -1,17 +1,16 @@
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+// Modules and Variables
+@import "styles/partials/base";
 
-.thumbnail {
-  height: 200px;
-
-  img.pull-right {
-    width: 50px;
-  }
-}
+// Partials
+@import "styles/partials/navbar";
+@import "styles/partials/welcome";
+@import "styles/partials/content";
+@import "styles/partials/into";
+@import "styles/partials/overlay";
+@import "styles/partials/about";
+@import "styles/partials/contact";
+@import "styles/partials/project";
+@import "styles/partials/social";
 
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */
