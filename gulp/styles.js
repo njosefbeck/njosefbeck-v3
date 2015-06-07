@@ -34,7 +34,8 @@ module.exports = function(options) {
 
     return gulp.src([
       options.src + '/app/index.scss',
-      options.src + '/app/vendor.scss'
+      options.src + '/app/vendor.scss',
+      options.src + '/{app,components}/**/*.scss'
     ])
       .pipe(indexFilter)
       .pipe($.inject(injectFiles, injectOptions))
