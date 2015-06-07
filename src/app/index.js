@@ -9,37 +9,37 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
         controller: 'MainCtrl'
       })
       .state('devAbout', {
-      	url: 'dev-about',
+      	url: '/dev-about',
       	templateUrl: 'app/dev/devAbout.html',
       	controller: 'devAboutCtrl'
       })
       .state('devContact', {
-      	url: 'dev-contact',
+      	url: '/dev-contact',
       	templateUrl: 'app/dev/devContact.html',
       	controller: 'devContactCtrl'
       })
       .state('devProjects', {
-      	url: 'dev-projects',
+      	url: '/dev-projects',
       	templateUrl: 'app/dev/devProjects.html',
       	controller: 'devProjectsCtrl'
       })
       .state('spanishAbout', {
-      	url: 'spanish-about',
+      	url: '/spanish-about',
       	templateUrl: 'app/spanish/spanishAbout.html',
       	controller: 'spanishAboutCtrl'
       })
       .state('spanishContact', {
-      	url: 'spanish-contact',
+      	url: '/spanish-contact',
       	templateUrl: 'app/spanish/spanishContact.html',
       	controller: 'spanishContactCtrl'
       })
       .state('yogaAbout', {
-      	url: 'yoga-about',
+      	url: '/yoga-about',
       	templateUrl: 'app/yoga/yogaAbout.html',
       	controller: 'yogaAboutCtrl'
       })
       .state('yogaContact', {
-      	url: 'yoga-contact',
+      	url: '/yoga-contact',
       	templateUrl: 'app/yoga/yogaContact.html',
       	controller: 'yogaContactCtrl'
       });
