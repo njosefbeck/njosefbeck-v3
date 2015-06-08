@@ -1,3 +1,41 @@
 .welcome {
 	background-color: $mine-shaft;
+
+	&__container {
+		margin-top: 70px;
+	}
+
+	&__img {
+
+	}
+
+	&__header {
+
+		font-family: $roboto-slab;
+		font-size: 175px;
+		margin-top: -63px;
+		height: 200px;
+	}
+
+	&__h, &__o {
+		color: $torch-red;
+	}
+
+	&__e, &__exc {
+		color: $malibu;
+	}
+
+	&__firstL {
+		color: $spring-green;
+	}
+
+	&__secondL {
+		color: $golden-fizz;
+	}
+
+	&__content {
+		font-size: 50px;
+		letter-spacing: 2px;
+		color: $mercury;
+	}
 }
