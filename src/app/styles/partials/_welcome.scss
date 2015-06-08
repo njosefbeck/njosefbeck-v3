@@ -6,7 +6,7 @@
 	}
 
 	&__img {
-
+		
 	}
 
 	&__header {
@@ -14,7 +14,7 @@
 		font-family: $roboto-slab;
 		font-size: 175px;
 		margin-top: -63px;
-		height: 200px;
+		height: 230px;
 	}
 
 	&__h, &__o {
@@ -37,5 +37,6 @@
 		font-size: 50px;
 		letter-spacing: 2px;
 		color: $mercury;
+		padding-left: 40px;
 	}
 }
