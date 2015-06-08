@@ -6,15 +6,39 @@
 	}
 
 	&__img {
-		
+
+		@media only screen and (max-width : 767px) {
+			max-width: 50%;
+			margin: 0 auto;
+		}
 	}
 
 	&__header {
 
 		font-family: $roboto-slab;
-		font-size: 175px;
-		margin-top: -63px;
+		font-size: 14em;
+		//font-size: 175px;
+		margin-top: -80px;
 		height: 230px;
+
+		@media only screen and (max-width : 767px) {
+			margin-top: -10px;
+			font-size: 7em;
+			height: 130px;
+			text-align: center;
+		}
+
+		@media only screen and (min-width : 768px) {
+			margin-top: -40px;
+			font-size: 11em;
+			height: 100px;
+		}
+
+		@media only screen and (min-width : 1200px) {
+			margin-top: -85px;
+			font-size: 15.8em;
+			height: 270px;
+		}
 	}
 
 	&__h, &__o {
@@ -38,5 +62,55 @@
 		letter-spacing: 2px;
 		color: $mercury;
 		padding-left: 40px;
+
+		@media only screen and (max-width : 767px) {
+			font-size: 28px;
+			padding-left: 10px;
+			letter-spacing: 2.3px;
+		}
+
+		@media only screen and (min-width : 768px) {
+			font-size: 45px;
+			padding-left: 25px;
+			margin-top: 15px;
+		}
+
+		@media only screen and (min-width : 992px) {
+			letter-spacing: 1.9px;
+		}
+
+		@media only screen and (min-width : 1200px) {
+			letter-spacing: 1.9px;
+		}
+	}
+
+	&__link {
+
+		&--web {
+			color: $spring-green;
+
+			&:hover {
+				text-decoration: none;
+				color: $golden-fizz;
+			}
+		}
+
+		&--spanish {
+			color: $torch-red;
+
+			&:hover {
+				text-decoration: none;
+				color: $golden-fizz;
+			}
+		}
+
+		&--yoga {
+			color: $malibu;
+
+			&:hover {
+				text-decoration: none;
+				color: $golden-fizz;
+			}
+		}
 	}
 }
