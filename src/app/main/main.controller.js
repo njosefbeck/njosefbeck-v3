@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('njosefbeck')
-  .controller('MainCtrl', function ($scope) {
-  	$scope.welcome = true;
+  .controller('MainCtrl', function ($scope, $rootScope) {
+  	$rootScope.welcome = true;
   });
