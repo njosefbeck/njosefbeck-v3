@@ -8,10 +8,12 @@
 angular.module('njosefbeck')
   .directive('navbar', function () {
     return {
-      template: '<div></div>',
-      restrict: 'E',
+      templateUrl: 'app/components/navbar/navbar.html',
+      restrict: 'AE',
+      replace: 'true',
+      scope: {},
       link: function(scope, element, attrs) {
-        element.text('this is the navbar directive');
+        
       }
     };
   });
