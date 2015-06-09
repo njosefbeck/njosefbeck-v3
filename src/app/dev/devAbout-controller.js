@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('njosefbeck')
-  .controller('devAboutCtrl', function ($scope, $rootScope) {
+  .controller('devAboutCtrl', function ($scope) {
 
   });
