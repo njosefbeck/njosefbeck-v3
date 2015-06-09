@@ -6,7 +6,26 @@
 		border: 0;
 	}
 
-	&__logo, .navbar-brand {
+	.navbar-toggle {
+
+		background-color: transparent;
+
+		&:hover {
+			background-color: transparent;
+		}
+
+		.icon-bar {
+		color: $husk;
+		background-color: $husk;
+		}
+	}
+
+	.navbar-collapse {
+		border-top: 0;
+		box-shadow: none;
+	}
+
+	.navbar-brand {
 		color: $cornflower-blue;
 		font-size: 2.7em;
 		font-family: $roboto-slab;
@@ -16,24 +35,24 @@
 		}
 	}
 
-}
+	.navbar-nav li a {
+		color: $husk;
+		font-size: 1.1em;
+		font-family: $open-sans;
 
-.navbar-default .navbar-nav li a {
-	color: $husk;
-	font-size: 1.1em;
-	font-family: $open-sans;
-
-	&:hover {
-		color: $silver-tree;
+		&:hover {
+			color: $silver-tree;
+		}
 	}
-}
 
-.navbar-default .navbar-nav .active a {
-	color: $silver-tree;
-	background-color: transparent;
-
-	&:hover {
+	.navbar-nav .active a {
 		color: $silver-tree;
 		background-color: transparent;
+
+		&:hover {
+			color: $silver-tree;
+			background-color: transparent;
+		}
 	}
 }
+
