@@ -13,7 +13,7 @@ angular.module('njosefbeck')
       replace: 'true',
       scope: {},
       link: function(scope, element, attrs) {
-        $scope.isCollapsed = false;
+        scope.isCollapsed = false;
       }
     };
   });

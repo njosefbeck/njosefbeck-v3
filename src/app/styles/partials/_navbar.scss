@@ -1,3 +1,39 @@
 .navigation {
 	background-color: transparent;
+	border: 0;
+
+	&__button {
+		border: 0;
+	}
+
+	&__logo, .navbar-brand {
+		color: $cornflower-blue;
+		font-size: 2.7em;
+		font-family: $roboto-slab;
+
+		&:hover {
+			color: $cornflower-blue;
+		}
+	}
+
+}
+
+.navbar-default .navbar-nav li a {
+	color: $husk;
+	font-size: 1.1em;
+	font-family: $open-sans;
+
+	&:hover {
+		color: $silver-tree;
+	}
+}
+
+.navbar-default .navbar-nav .active a {
+	color: $silver-tree;
+	background-color: transparent;
+
+	&:hover {
+		color: $silver-tree;
+		background-color: transparent;
+	}
 }
