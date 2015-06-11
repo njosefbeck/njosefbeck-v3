@@ -1,0 +1,23 @@
+<nav class="navbar navbar-static-top navbar-default navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle navigation__button" ng-click="isCollapsed = !isCollapsed" aria-expanded="true">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand navigation__logo" ui-sref="home">
+        njosefbeck
+      </a>
+    </div>
+
+    <div class="navbar-collapse navbar-right navigation collapse in" collapse="!isCollapsed" aria-expanded="true">
+      <ul class="nav navbar-nav">
+        <li class="active navigation__item--active"><a ui-sref="devAbout">About</a></li>
+        <li class="navigation__item"><a ui-sref="devContact">Contact</a></li>
+        <li class="navigation__item"><a ui-sref="devProjects">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
