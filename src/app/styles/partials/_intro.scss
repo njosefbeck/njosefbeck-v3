@@ -10,4 +10,49 @@
 		}
 	}
 
+	&--yoga {
+
+		&__text {
+			color: $lochinvar;
+			font-size: 1.3em;
+			text-align: center;
+			letter-spacing: 0.1em;
+		}
+
+	}
+
+	&__row {
+
+		&--yoga {
+
+			background-color: $mint-green;
+			padding: 10px;
+			margin-top: 30px;
+
+			&--main {
+
+				background-color: $aquamarine;
+				padding: 10px;
+
+			}
+
+			&--second {
+
+				margin-top: 30px;
+				background-color: $golden-fizz;
+				padding: 10px;
+
+			}
+
+			&--third {
+
+				margin-top: 30px;
+				background-color: $bright-turquoise;
+				padding: 10px;
+
+			}
+		}
+
+	}
+
 }
