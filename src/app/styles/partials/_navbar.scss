@@ -57,3 +57,62 @@
 	}
 }
 
+.navigation--yoga {
+	background-color: transparent;
+	border: 0;
+
+	&__button {
+		border: 0;
+	}
+
+	.navbar-toggle {
+
+		background-color: transparent;
+
+		&:hover {
+			background-color: transparent;
+		}
+
+		.icon-bar {
+		color: $husk;
+		background-color: $lochinvar;
+		}
+	}
+
+	.navbar-collapse {
+		border-top: 0;
+		box-shadow: none;
+	}
+
+	.navbar-brand {
+		color: $lochinvar;
+		font-size: 2.7em;
+		font-family: $roboto-slab;
+		font-weight: bold;
+
+		&:hover {
+			color: $aquamarine;
+		}
+	}
+
+	.navbar-nav li a {
+		color: $lochinvar;
+		font-size: 1.1em;
+		font-family: $open-sans;
+
+		&:hover {
+			color: $bright-turquoise;
+		}
+	}
+
+	.navbar-nav .active a {
+		color: $bright-turquoise;
+		background-color: transparent;
+
+		&:hover {
+			color: $lochinvar;
+			background-color: transparent;
+		}
+	}
+}
+
