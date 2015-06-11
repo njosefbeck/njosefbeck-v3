@@ -1,0 +1,32 @@
+.content {
+
+	&--dev {
+
+		&--about {
+
+			&__header {
+
+				font-family: $roboto-slab;
+				font-size: 5em;
+				color: $cornflower-blue;
+
+			}
+
+			&__subheader {
+				color: $cornflower-blue;
+				font-size: 1.5em;
+				margin-bottom: 0;
+			}
+
+			&__text {
+				font-size: 1.2em;
+				color: $husk;
+				letter-spacing: 0.1em;
+
+
+			}
+
+		}
+	}
+
+}
