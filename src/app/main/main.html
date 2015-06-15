@@ -1,18 +1,22 @@
-<div class="container welcome__container">
+<div class="container-fluid" ng-style="{ height: windowHeight + 'px' }" ng-class="{welcome: is('home'), 'dev-background': is('devAbout') || is('devContact') || is('devProjects')}">
 
-  <div class="row">
-    <div class="col-sm-3 col-md-2 col-md-offset-1 col-lg-2">
-      <img class="img-responsive img-circle welcome__img" src="assets/images/me.jpg" />
-    </div>
-    <div class="col-sm-7 col-md-8 col-lg-8 welcome__header">
-      <span class="welcome__h">H</span><span class="welcome__e">E</span><span class="welcome__firstL">L</span><span class="welcome__secondL">L</span><span class="welcome__o">O</span><span class="welcome__exc">!</span>
-    </div>
-  </div>
+  <div class="container welcome__container">
 
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1 col-lg-10 welcome__content">
-    I'm Nathan Josef Beck. Nice to meet you! My passions include developing the <a class="welcome__link--web" ui-sref="devAbout">web</a>, teaching <a class="welcome__link--spanish" ui-sref="spanishAbout">Spanish</a>, and guiding others through <a class="welcome__link--yoga" ui-sref="yogaAbout">yoga</a>.
+    <div class="row">
+      <div class="col-sm-3 col-md-2 col-md-offset-1 col-lg-2">
+        <img class="img-responsive img-circle welcome__img" src="assets/images/me.jpg" />
+      </div>
+      <div class="col-sm-7 col-md-8 col-lg-8 welcome__header">
+        <span class="welcome__h">H</span><span class="welcome__e">E</span><span class="welcome__firstL">L</span><span class="welcome__secondL">L</span><span class="welcome__o">O</span><span class="welcome__exc">!</span>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-lg-10 welcome__content">
+      I'm Nathan Josef Beck. Nice to meet you! My passions include developing the <a class="welcome__link--web" ui-sref="devAbout">web</a>, teaching <a class="welcome__link--spanish" ui-sref="spanishAbout">Spanish</a>, and guiding others through <a class="welcome__link--yoga" ui-sref="yogaAbout">yoga</a>.
+      </div>
+    </div>
+
   </div>
 
 </div>

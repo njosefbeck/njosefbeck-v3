@@ -6,4 +6,6 @@ angular.module('njosefbeck')
   		return $state.is(name);
   	};
 
+  	$scope.windowHeight = window.innerHeight;
+
   });
