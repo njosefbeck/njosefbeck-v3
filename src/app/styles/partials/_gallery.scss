@@ -1,0 +1,22 @@
+.gallery {
+	padding: 0;
+	margin: 0;
+
+	&__item {
+		margin-top: 25px;
+		position: relative;
+		width: 100%;
+		padding-bottom: 100%;
+		-webkit-border-radius: 12px; 
+  		-moz-border-radius: 12px; 
+  		border-radius: 12px; 
+  		background: url("http://colourfulrebel.com/en/wp-content/uploads/2015/06/Cute-Kittens-1-Wallpaper-HD.jpg");
+  		background-size: contain;
+
+  		&__text {
+  			position: absolute;
+  			top: 10px;
+  			right: 10px;
+  		}
+	}
+}
