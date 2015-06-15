@@ -10,7 +10,7 @@
 
 		background-color: transparent;
 
-		&:hover {
+		&:hover, &:focus {
 			background-color: transparent;
 		}
 
@@ -69,7 +69,7 @@
 
 		background-color: transparent;
 
-		&:hover {
+		&:hover, &:active {
 			background-color: transparent;
 		}
 
