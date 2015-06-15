@@ -11,17 +11,17 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
       .state('devAbout', {
       	url: '/dev-about',
       	templateUrl: 'app/dev/devAbout.html',
-      	controller: 'devAboutCtrl'
+      	controller: 'devCtrl'
       })
       .state('devContact', {
       	url: '/dev-contact',
       	templateUrl: 'app/dev/devContact.html',
-      	controller: 'devContactCtrl'
+      	controller: 'devCtrl'
       })
       .state('devProjects', {
       	url: '/dev-projects',
       	templateUrl: 'app/dev/devProjects.html',
-      	controller: 'devProjectsCtrl'
+      	controller: 'devCtrl'
       })
       .state('spanishAbout', {
       	url: '/spanish-about',
