@@ -7,16 +7,35 @@
 		position: relative;
 		width: 100%;
 		padding-bottom: 100%;
-		-webkit-border-radius: 12px; 
-  		-moz-border-radius: 12px; 
-  		border-radius: 12px; 
+		-webkit-border-radius: 5px; 
+  		-moz-border-radius: 5px; 
+  		border-radius: 5px; 
   		background: url("http://colourfulrebel.com/en/wp-content/uploads/2015/06/Cute-Kittens-1-Wallpaper-HD.jpg");
   		background-size: contain;
 
-  		&__text {
+  		&:hover &__overlay {
+  			opacity: 1;
+  		}
+
+  		&__overlay {
   			position: absolute;
-  			top: 10px;
-  			right: 10px;
+  			width: 100%;
+  			height: 100%;
+  			-webkit-border-radius: 5px; 
+  			-moz-border-radius: 5px; 
+  			border-radius: 5px;
+  			background: rgba(119, 186, 155, 0.7);
+  			opacity: 0;
+  		}
+
+  		&__text {
+  			text-align: center;
+  			position: relative;
+  			top: 37%;
+  			color: $astronaut;
+  			font-size: 1.5em;
+  			font-weight: bold;
+
   		}
 	}
 }
