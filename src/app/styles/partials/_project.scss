@@ -1,0 +1,43 @@
+.project {
+
+	&__title {
+
+		font-family: $roboto-slab;
+		font-size: 3em;
+		color: $cornflower-blue;
+
+	}
+
+	&__desc {
+		
+		font-size: 1.2em;
+		color: $husk;
+		letter-spacing: 0.2em;
+
+	}
+
+	&__img {
+
+		margin: 20px 0 20px;
+		-webkit-border-radius: 5px; 
+  		-moz-border-radius: 5px; 
+  		border-radius: 5px; 
+
+	}
+
+	&__link {
+
+		color: $silver-tree;
+		font-size: 0.9em;
+		letter-spacing: 0.1em;
+
+		&:hover {
+
+			text-decoration: none;
+			color: $husk;
+			
+		}
+
+	}
+
+}
