@@ -10,20 +10,20 @@
 		
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<img class="img-responsive project__img" src="http://colourfulrebel.com/en/wp-content/uploads/2015/06/Cute-Kittens-1-Wallpaper-HD.jpg" />
+				<img class="img-responsive project__img" src="{{aProject.mainimage}}" />
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1 project__title">
-			Project Title
+			{{aProject.name}}
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1 project__desc">
-			<p>Project Description</p>
-			<p><a href="#" class="project__link">View Website</a> // <a href="#" class="project__link">View GitHub Repo</a></p>
+			<p>{{aProject.description}}</p>
+			<p><a href="{{aProject.link}}" class="project__link">{{aProject.linktext}}</a> // <a href="{{aProject.github}}" class="project__link">{{aProject.githubtext}}</a></p>
 			</div>
 		</div>
 
