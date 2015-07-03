@@ -2,6 +2,10 @@
 
 angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstrap'])
   .config(function ($stateProvider, $urlRouterProvider) {
+    
+    $urlRouterProvider.when("devProjects", "/devProjects/list");
+    $urlRouterProvider.when("/devProjects", "/devProjects/list");
+
     $stateProvider
       .state('home', {
         url: '/',
@@ -19,10 +23,14 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
       	controller: 'devCtrl'
       })
       .state('devProjects', {
-      	url: '/dev-projects',
+      	url: '/devProjects',
       	templateUrl: 'app/dev/devProjects.html',
       	controller: 'devCtrl'
       })
+      .state('devProjects.list', {
+        url: '/list',
+        templateUrl: 'app/dev/devProjects.list.html'
+      }) 
       .state('devProjects.detail', {
         url: '/:id',
         templateUrl: 'app/dev/devProjects.detail.html',
