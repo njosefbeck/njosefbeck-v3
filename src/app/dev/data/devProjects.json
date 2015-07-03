@@ -1,0 +1,51 @@
+[
+
+  { 
+    "id": 0, 
+    "name": "Bloc Jams",
+    "logo": "bloc-jams-logo.jpg", 
+    "link": "http://www.bloc-jams-link.com",
+    "github": "http://www.github.com",
+    "linktext" : "View The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "bloc-jams-main.jpg"
+  },
+
+  { 
+    "id": 1, 
+    "name": "Blocitoff",
+    "logo": "blocitoff-logo.jpg", 
+    "link": "http://www.blocitoff.com",
+    "github": "http://www.github.com",
+    "linktext" : "View The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "blocitoff-main.jpg"
+  },
+
+  { 
+    "id": 2, 
+    "name": "Desert Jewels Redesign",
+    "logo": "dj-logo.jpg", 
+    "link": "http://www.dj-link.com",
+    "github": "http://www.github.com",
+    "linktext" : "View The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "dj-main.jpg"
+  },
+
+  { 
+    "id": 3, 
+    "name": "Njosefbeck.com v.3",
+    "logo": "njb-v3-logo.jpg", 
+    "link": "http://www.bloc-jams-link.com",
+    "github": "http://www.github.com",
+    "linktext" : "View The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "njb-v3-main.jpg"
+  }
+
+]

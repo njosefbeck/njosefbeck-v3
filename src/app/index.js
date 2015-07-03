@@ -23,11 +23,6 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
       	templateUrl: 'app/dev/devProjects.html',
       	controller: 'devCtrl'
       })
-      .state('devProject01', {
-        url: '/dev-project01',
-        templateUrl: 'app/dev/devProject01.html',
-        controller: 'devCtrl'
-      })
       .state('spanishAbout', {
       	url: '/spanish-about',
       	templateUrl: 'app/spanish/spanishAbout.html',
