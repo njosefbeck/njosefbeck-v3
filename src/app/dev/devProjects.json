@@ -1,7 +1,43 @@
 [
 
   { 
-    "id": 0, 
+    "id": 4, 
+    "name": "Njosefbeck.com v.3",
+    "logo": "assets/images/projects/njb-v3-logo.png", 
+    "link": "http://www.njosefbeck.com",
+    "github": "https://github.com/njosefbeck/njosefbeck-v3",
+    "linktext" : "View The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "assets/images/projects/njb-v3-main.png"
+  },
+
+  { 
+    "id": 3, 
+    "name": "Desert Jewels",
+    "logo": "assets/images/projects/dj-logo.png", 
+    "link": "http://www.njosefbeck.com/djv2",
+    "github": "https://github.com/njosefbeck/desert-jewels-v2",
+    "linktext" : "Visit The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "assets/images/projects/dj-main.png"
+  },
+
+  { 
+    "id": 2, 
+    "name": "Blocitoff",
+    "logo": "assets/images/projects/blocitoff-logo.png", 
+    "link": "http://www.blocitoff.com",
+    "github": "https://github.com/njosefbeck/blocitoff",
+    "linktext" : "Visit The Site",
+    "githubtext" : "Github Repo",
+    "description": "Description here",
+    "mainimage": "assets/images/projects/blocitoff-main.png"
+  },
+
+  { 
+    "id": 1, 
     "name": "Bloc Jams",
     "logo": "assets/images/projects/bloc-jams-logo.png", 
     "link": "https://bloc-jams-nbeck.herokuapp.com/",
@@ -13,39 +49,15 @@
   },
 
   { 
-    "id": 1, 
-    "name": "Blocitoff",
-    "logo": "blocitoff-logo.jpg", 
-    "link": "http://www.blocitoff.com",
-    "github": "http://www.github.com",
-    "linktext" : "Visit The Site",
-    "githubtext" : "Github Repo",
-    "description": "Description here",
-    "mainimage": "blocitoff-main.jpg"
-  },
-
-  { 
-    "id": 2, 
-    "name": "Desert Jewels Redesign",
-    "logo": "dj-logo.jpg", 
-    "link": "http://www.dj-link.com",
-    "github": "http://www.github.com",
-    "linktext" : "Visit The Site",
-    "githubtext" : "Github Repo",
-    "description": "Description here",
-    "mainimage": "dj-main.jpg"
-  },
-
-  { 
-    "id": 3, 
-    "name": "Njosefbeck.com v.3",
-    "logo": "njb-v3-logo.jpg", 
-    "link": "http://www.bloc-jams-link.com",
-    "github": "http://www.github.com",
+    "id": 0, 
+    "name": "Njosefbeck.com v.2",
+    "logo": "assets/images/projects/njb-v2-logo.png", 
+    "link": "http://www.njosefbeck.com/v2",
+    "github": "https://github.com/njosefbeck/Njosefbeck.com-Version-2.0",
     "linktext" : "View The Site",
     "githubtext" : "Github Repo",
     "description": "Description here",
-    "mainimage": "njb-v3-main.jpg"
+    "mainimage": "assets/images/projects/njb-v2-main.png"
   }
 
 ]
