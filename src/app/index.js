@@ -47,3 +47,12 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
     $urlRouterProvider.otherwise('/');
   })
 ;
+
+angular.module('njosefbeck')
+  .directive('project', function () {
+    return {
+      restrict: 'A',
+      templateUrl: 'app/dev/devProject01.html',
+      controller: 'devCtrl'
+    };
+  });
