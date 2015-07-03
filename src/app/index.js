@@ -23,6 +23,13 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
       	templateUrl: 'app/dev/devProjects.html',
       	controller: 'devCtrl'
       })
+      .state('devProjects.detail', {
+        url: '/:id',
+        templateUrl: 'app/dev/devProjects.detail.html',
+        controller: function($scope, $stateParams){
+          $scope.aProject = $scope.projects[$stateParams.id];
+        }
+      })
       .state('spanishAbout', {
       	url: '/spanish-about',
       	templateUrl: 'app/spanish/spanishAbout.html',
@@ -52,7 +59,7 @@ angular.module('njosefbeck')
   .directive('project', function () {
     return {
       restrict: 'A',
-      templateUrl: 'app/dev/devProject01.html',
+      templateUrl: 'app/dev/devProject-template.html',
       controller: 'devCtrl'
     };
   });
