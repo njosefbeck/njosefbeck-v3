@@ -3,13 +3,13 @@
   { 
     "id": 0, 
     "name": "Bloc Jams",
-    "logo": "bloc-jams-logo.jpg", 
-    "link": "http://www.bloc-jams-link.com",
-    "github": "http://www.github.com",
-    "linktext" : "View The Site",
+    "logo": "assets/images/projects/bloc-jams-logo.png", 
+    "link": "https://bloc-jams-nbeck.herokuapp.com/",
+    "github": "https://github.com/njosefbeck/bloc-jams",
+    "linktext" : "Visit The Site",
     "githubtext" : "Github Repo",
     "description": "Description here",
-    "mainimage": "bloc-jams-main.jpg"
+    "mainimage": "assets/images/projects/bloc-jams-main.png"
   },
 
   { 
@@ -18,7 +18,7 @@
     "logo": "blocitoff-logo.jpg", 
     "link": "http://www.blocitoff.com",
     "github": "http://www.github.com",
-    "linktext" : "View The Site",
+    "linktext" : "Visit The Site",
     "githubtext" : "Github Repo",
     "description": "Description here",
     "mainimage": "blocitoff-main.jpg"
@@ -30,7 +30,7 @@
     "logo": "dj-logo.jpg", 
     "link": "http://www.dj-link.com",
     "github": "http://www.github.com",
-    "linktext" : "View The Site",
+    "linktext" : "Visit The Site",
     "githubtext" : "Github Repo",
     "description": "Description here",
     "mainimage": "dj-main.jpg"
