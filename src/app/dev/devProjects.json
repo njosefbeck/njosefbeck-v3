@@ -1,26 +1,26 @@
 [
 
   { 
-    "id": 4, 
+    "id": 0, 
     "name": "Njosefbeck.com v.3",
     "logo": "assets/images/projects/njb-v3-logo.png", 
     "link": "http://www.njosefbeck.com",
     "github": "https://github.com/njosefbeck/njosefbeck-v3",
     "linktext" : "View The Site",
     "githubtext" : "Github Repo",
-    "description": "Description here",
+    "description": "The third version of my personal website was a way for me to showcase a lot of the skills that I had learned as a part of my Bloc apprenticeship. My goal was to create a distinct visual experience for each of my professional interests: teaching yoga, teaching Spanish, and web development. Thus, each section of the site uses the same general layout, but with different color schemes to give a richer experience. From a technical viewpoint, the site was built using Angular 1.x and Bootstrap with an eye towards mobile-first and responsive design as well as employing the BEM methodology of organizing Sass/CSS.",
     "mainimage": "assets/images/projects/njb-v3-main.png"
   },
 
   { 
-    "id": 3, 
+    "id": 1, 
     "name": "Desert Jewels",
     "logo": "assets/images/projects/dj-logo.png", 
     "link": "http://www.njosefbeck.com/djv2",
     "github": "https://github.com/njosefbeck/desert-jewels-v2",
     "linktext" : "Visit The Site",
     "githubtext" : "Github Repo",
-    "description": "Description here",
+    "description": "Desert Jewels is a virtual and physical community devoted to authenticity, personal empowerment, and creativity. I work on Desert Jewels with my friends in varying capacities. The goal for this project was to take the wonderful design of the site and see if I could re-create it, not using Squarespace. I also wanted to add a social media sharing aspect for each story. Additionally, I created from scratch the grid system used in this project, and this was my first foray into using Sass with the BEM naming convention. (Note that the only links that work are 'Stories' and 'About'.)",
     "mainimage": "assets/images/projects/dj-main.png"
   },
 
@@ -32,24 +32,24 @@
     "github": "https://github.com/njosefbeck/blocitoff",
     "linktext" : "Visit The Site",
     "githubtext" : "Github Repo",
-    "description": "Description here",
+    "description": "Blocitoff was a project completed as part of my Bloc apprenticeship. The specs called for a to-do list app that persisted data in real-time to a backend (in this case a Firebase database), allowed users to specify the importance level of the task, have the tasks auto-complete themselves after a set amount of time (a short time period here, so it can be seen in action), and then be able to view completed tasks on another page. Here, then, the focus was more on creating functionality through JavaScript and less on the design. ",
     "mainimage": "assets/images/projects/blocitoff-main.png"
   },
 
   { 
-    "id": 1, 
+    "id": 3, 
     "name": "Bloc Jams",
     "logo": "assets/images/projects/bloc-jams-logo.png", 
     "link": "https://bloc-jams-nbeck.herokuapp.com/",
     "github": "https://github.com/njosefbeck/bloc-jams",
     "linktext" : "Visit The Site",
     "githubtext" : "Github Repo",
-    "description": "Description here",
+    "description": "The first phase in my Bloc apprenticeship was called Foundations, and was all about learning relevant front-end skills by walking through the creation of this app, Bloc Jams, which is a music-playing app fashioned after rdio.com. Here I gained experience with a large number of important development skills, which is why I include this project in my portfolio. Though I didn't write most of the code (outside of running through the exercises), it is a good testamant of code I could produce now, after the fact. ",
     "mainimage": "assets/images/projects/bloc-jams-main.png"
   },
 
   { 
-    "id": 0, 
+    "id": 4, 
     "name": "Njosefbeck.com v.2",
     "logo": "assets/images/projects/njb-v2-logo.png", 
     "link": "http://www.njosefbeck.com/v2",
