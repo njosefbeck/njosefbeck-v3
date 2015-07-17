@@ -1,0 +1,58 @@
+.social__img {
+	width: 75px;
+	height: 75px;
+	margin: 15px 10px 20px 0;
+}
+
+.form-group--dev {
+
+	/* do not group these rules */
+	*::-webkit-input-placeholder {
+	    color: $husk;
+	}
+	*:-moz-placeholder {
+	    /* FF 4-18 */
+	    color: $husk;
+	}
+	*::-moz-placeholder {
+	    /* FF 19+ */
+	    color: $husk;
+	}
+	*:-ms-input-placeholder {
+	    /* IE 10+ */
+	    color: $husk;
+	}
+
+	font-family: $open-sans;
+
+	label {
+
+		margin-top: 16px;
+
+	}
+
+	input, textarea {
+		background-color: $astronaut;
+		border-color: $husk;
+		color: $husk;
+		margin-top: 20px;
+	}
+
+	button {
+
+		background-color: $silver-tree;
+		border-color: $silver-tree;
+		color: $astronaut;
+		font-weight: bold;
+		margin-top: 15px;
+
+		&:hover {
+
+			background-color: $astronaut;
+			color: $silver-tree;
+
+		}
+
+	}
+
+}
