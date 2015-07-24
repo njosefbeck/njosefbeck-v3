@@ -23,17 +23,22 @@
   			-webkit-border-radius: 5px; 
   			-moz-border-radius: 5px; 
   			border-radius: 5px;
-  			background: rgba(119, 186, 155, 0.7);
+  			background: rgba(182, 167, 84, 0.8);
   			opacity: 0;
   		}
 
   		&__text {
   			text-align: center;
   			position: relative;
-  			top: 37%;
+  			top: 40%;
   			color: $astronaut;
-  			font-size: 1.5em;
+  			font-size: 1.8em;
   			font-weight: bold;
+
+        @media only screen and (max-width : 480px) {
+          font-size: 1.2em;
+          top: 40%;
+      }
 
   		}
 	}
