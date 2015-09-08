@@ -41,22 +41,22 @@ angular.module('njosefbeck', ['ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstra
       .state('spanishAbout', {
       	url: '/spanish-about',
       	templateUrl: 'app/spanish/spanishAbout.html',
-      	controller: 'spanishAboutCtrl'
+      	controller: 'devCtrl'
       })
       .state('spanishContact', {
       	url: '/spanish-contact',
       	templateUrl: 'app/spanish/spanishContact.html',
-      	controller: 'spanishContactCtrl'
+      	controller: 'devCtrl'
       })
       .state('yogaAbout', {
       	url: '/yoga-about',
       	templateUrl: 'app/yoga/yogaAbout.html',
-      	controller: 'yogaAboutCtrl'
+      	controller: 'devCtrl'
       })
       .state('yogaContact', {
       	url: '/yoga-contact',
       	templateUrl: 'app/yoga/yogaContact.html',
-      	controller: 'yogaContactCtrl'
+      	controller: 'devCtrl'
       });
 
     $urlRouterProvider.otherwise('/');
